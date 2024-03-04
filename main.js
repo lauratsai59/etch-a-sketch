@@ -12,7 +12,7 @@ function addSquare (count) {
     div.style.width = size + "px";
     div.style.border = "1px solid rgba(236, 238, 243, 0.76)";
     div.style.backgroundColor= "white";
-   let index = i - 1;
+    let index = i - 1;
     if (i === (count * index + 1)) {
       div.style.width = '100%';
       div.style.border = 0;
